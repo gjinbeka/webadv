@@ -1,37 +1,52 @@
+<!DOCTYPE html>
 <html>
-    <body>
-        <form>
-                <label for="firstname">firstname:</label>
-                 <input type="text" id="firstname" name="firstname"><br>
-                 <label for="lastname">lastname:</label><br>
-                 <input type="text" id="lastname" name="lastname"><br>  
-                 <label for="password">password:</label><br>
-                 <input type="password" id="password" name="password"><br>
-                 <label for="email">email:</label><br>
-                 <input type="text" id="email" name="email"><br>
-                 <input type="submit" id="submit" name="submit"><br>
-                 <label> Gender</label><br>
-                 <input type="radio" id="male" name="gender"  value="male"><br>
-                <label for="female">female:</label><br>
-                <input type="radio" id="female" name="gender"  value="female"><br>
-                <label> hobbies</label><br>
-                <input type="checkbox" id="gaming" name="gaming"  value="gaming"><br>
-                <label for="gaming">gaming</label><br>
-                <input type="checkbox" id="football" name="football"  value="football"><br>
-                <label for="gaming">gaming</label><br>
+<body>
+
+<form>
+    <fieldset>
+     <legend>personal informations</legend>   
+
+    <label for="firstname">First name:</label><br>
+    <input type="text" id="firstname" name="firstname" value="john" disabled><br><br>
+
+    <label for="lastname">Last name:</label><br>
+    <input type="text" id="lastname" name="lastname" size="32"  required><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"  placeholder="password"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email"><br><br>
+    <input type="submit" value="Submit"></br>
+
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <label>Hobbies:</label><br>
+    <input type="checkbox" id="gaming" name="gaming" value="gaming">
+    <label for="gaming">Gaming</label><br>
+
+    <input type="checkbox" id="football" name="football" value="football">
+    <label for="football">Football</label><br><br>
+
+    <label for="pet">Choose a pet:</label><br>
+    <select id="pet" name="pet">
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="parrot">Parrot</option>
+    </select><br><br>
 
 
-
-                
-
-                
-              
-              
-        
+    <textarea name="message" rows="18" cols="20" maxlength="50"></textarea>
 
 
-        
-        </form>
-            
-    </body>
+   </fieldset> 
+
+</form>
+
+</body>
 </html>
