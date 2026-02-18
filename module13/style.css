@@ -1,0 +1,35 @@
+/*
+ul{
+    list-style-type:circle ;
+    list-style-image: url(".../foto/ds.png");
+
+}
+ol{
+    list-style-type: upper-roman;
+
+}
+*/
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid grey;
+}
+
+ul li{
+    padding: 8px 16px;
+    border-bottom: 1px solid grey
+}
+ol{
+    background:#ffeeee
+    padding:15px
+
+}
+ol li{
+    background: #ffe555;
+    padding:10px;
+    margin-left:30px;
+
+}
+                  
+
