@@ -81,7 +81,7 @@ body{
     z-index:1;
 
 }
-.dropdown ;:hover .dropdown-content{
+.dropdown a:hover .dropdown-content{
     display:block;
 }
 .column{
@@ -110,6 +110,34 @@ body{
     content:"";
     display:table;
     clear:both;
+}
+
+
+#vertical-menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: darkblue;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+
+#vertical-menu li a{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#horizontal-menu li a:hover:not(.active){
+    background-color: #4ca750;
+}
+
+.active{
+    background-color: #4ca750;
 }
 
 
