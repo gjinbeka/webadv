@@ -31,5 +31,31 @@ ol li{
     margin-left:30px;
 
 }
-                  
+table{
+    border-collapse: collapse;
 
+}
+td,th{
+    border: 1px solid black;
+    padding:15px;
+
+}
+
+tbody tr:nth-child(odd){
+    background-color: blueviolet;
+
+
+}
+
+tbody tr:nth-child(odd){
+    background-color: red;
+
+
+}
+
+div{
+    overflow: auto;
+    background-color:blue;
+    width: 200px;
+    height:200px;
+}
