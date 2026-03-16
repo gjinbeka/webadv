@@ -32,7 +32,24 @@
     text-align: center;
     z-index: 1 ;
     position:absolute;
-
+    bottom: 150%;
     margin-left: -70px;
+    left: 50%;
+}
+
+
+.tooltip  .tooltip-content::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
     
 }
+
+.tooltip:hover .tooltip-content{
+    visibility: visible;
+}                                                               
