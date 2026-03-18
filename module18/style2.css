@@ -22,3 +22,11 @@
 #shadows:hover img{
     filter: blur(0px);
 }
+
+#engineers img{
+    filter: grayscale(100%);
+    transition: .3s ease-in-out;
+}
+#engineers:hover img{
+    filter: grayscale(0%);
+}   
