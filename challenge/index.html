@@ -1,59 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cuda Web</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="hero">
-        <nav class="navbar">
-            <div class="logo">Cuda</div>
-            <ul class="nav-links">
-                <li><a href="#" class="active">home </a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">work</a></li>
-                <li><a href="#">blog</a></li>
-                <li><a href="#">contact</a></li>
-            </ul>
-        </nav>
-        <div class="hero-content">
-            <h1>hi there we are the new kids on the block <br> and we build awesome websites and mobile apps</h1>
-            <button class="btn-orange">work wit us</button>
-        </div>
-    </header>
-    <section class="services">
-        <div class="container">
-            <h2>services we provide</h2>
-            <div class="underline"></div>
-            <p class="subtitle">    
-                we are working with both individuals and businesses from all over the globe to create awesome websites and applications
-            </p>    
 
-            <div class="services-grid">
-                <div class="service-item">
-                    <div class="icon flag"></div>
-                    <h3>branding</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh.</p>
-                </div>
-                <div class="service-item">
-                    <div class="icon pencil"></div>
-                    <h3>design</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-                </div>
-                <div class="service-item">
-                    <div class="icon gears  "></div>
-                    <h3>development</h3>
-                    <p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
-                </div>
-                <div class="service-item">
-                    <div class="icon rocket"></div>
-                    <h3>rocket science</h3>
-                    <p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
-                </div>
-            </div>
+    <div class="nav-bari">
+        <div class="logo">Cuda</div>
+        <div class="menu">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">WORK</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTACT</a>
         </div>
-    </section>  
+    </div>
+
+    <div class="teksti-mes">
+        <h1>Hi there! We are the new kids on the block <br> 
+        and we build awesome websites and mobile apps.</h1>
+        <a href="#" class="butoni">WORK WITH US!</a>
+    </div>
+
+
+    <form>
+    <fieldset>
+     <legend>personal informations</legend>   
+
+    <label for="firstname">First name:</label><br>
+    <input type="text" id="firstname" name="firstname" value="john" disabled><br><br>
+
+    <label for="lastname">Last name:</label><br>
+    <input type="text" id="lastname" name="lastname" size="32"  required><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"  placeholder="password"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email"><br><br>
+    <input type="submit" value="Submit"></br>
+
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    
+   
+
+    
+
+
+    <textarea name="message" rows="18" cols="20" maxlength="50"></textarea>
+
+
+   </fieldset> 
+
+
+
 </body>
 </html>
+
+
+
