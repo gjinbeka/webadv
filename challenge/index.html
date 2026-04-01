@@ -1,68 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Cuda Web</title>
+    <meta charset="UTF-8">
+    <title>Cuda</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="nav-bari">
-        <div class="logo">Cuda</div>
-        <div class="menu">
-            <a href="#">HOME</a>
-            <a href="#">ABOUT</a>
-            <a href="#">WORK</a>
-            <a href="#">BLOG</a>
-            <a href="#">CONTACT</a>
+<!-- HERO -->
+<header class="hero">
+    <div class="container nav">
+        <h1 class="logo">Cuda</h1>
+
+        <ul class="menu">
+            <li class="active">Home</li>
+            <li>About</li>
+            <li>Work</li>
+            <li>Blog</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+    <div class="hero-content">
+        <h2>
+            Hi there! We are the new kids on the block<br>
+            and we build awesome websites and mobile apps.
+        </h2>
+
+        <a href="#" class="btn-primary">WORK WITH US!</a>
+    </div>
+</header>
+
+<!-- SERVICES -->
+<section class="services">
+    <div class="container">
+
+        <h2 class="section-title">SERVICES WE PROVIDE</h2>
+
+        <p class="subtitle">
+            We are working with both individuals and businesses from all over the globe
+            to create awesome websites and applications.
+        </p>
+
+        <div class="service-boxes">
+
+            <div class="box">
+                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png">
+                <h3>Branding</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+
+            <div class="box">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+                <h3>Design</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+            </div>
+
+            <div class="box">
+                <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png">
+                <h3>Development</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos.</p>
+            </div>
+
+            <div class="box">
+                <img src="https://cdn-icons-png.flaticon.com/512/3219/3219463.png">
+                <h3>Rocket Science</h3>
+                <p>Et harum quidem rerum est et expedita distinctio.</p>
+            </div>
+
         </div>
     </div>
+</section>
 
-    <div class="teksti-mes">
-        <h1>Hi there! We are the new kids on the block <br> 
-        and we build awesome websites and mobile apps.</h1>
-        <a href="#" class="butoni">WORK WITH US!</a>
-    </div>
+<section class="contact">
+  <div class="container">
+    <h2>GET IN TOUCH</h2>
+    <p class="address">
+      1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111
+    </p>
 
+    <form class="contact-form">
+      <div class="row">
+        <input type="text" placeholder="Your Name *" required>
+        <input type="email" placeholder="Your Email *" required>
+      </div>
 
-    <form>
-    <fieldset>
-     <legend>personal informations</legend>   
+      <textarea placeholder="Your Message *" required></textarea>
 
-    <label for="firstname">First name:</label><br>
-    <input type="text" id="firstname" name="firstname" value="john" disabled><br><br>
+      <button type="submit">SEND MESSAGE</button>
+    </form>
+  </div>
 
-    <label for="lastname">Last name:</label><br>
-    <input type="text" id="lastname" name="lastname" size="32"  required><br><br>
-
-    <label for="password">Password:</label><br>
-    <input type="password" id="password" name="password"  placeholder="password"><br><br>
-
-    <label for="email">Email:</label><br>
-    <input type="text" id="email" name="email"><br><br>
-    <input type="submit" value="Submit"></br>
-
-    <label>Gender:</label><br>
-    <input type="radio" id="male" name="gender" value="male">
-    <label for="male">Male</label><br>
-
-    <input type="radio" id="female" name="gender" value="female">
-    <label for="female">Female</label><br><br>
-
-    
-   
-
-    
-
-
-    <textarea name="message" rows="18" cols="20" maxlength="50"></textarea>
-
-
-   </fieldset> 
-
-
+  <footer class="socials">
+    <a href="#">Facebook</a>
+    <a href="#">Twitter</a>
+    <a href="#">Google+</a>
+    <a href="#">LinkedIn</a>
+    <a href="#">Behance</a>
+    <a href="#">Dribbble</a>
+    <a href="#">GitHub</a>
+  </footer>
+</section>
 
 </body>
 </html>
-
-
-

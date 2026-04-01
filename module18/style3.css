@@ -28,7 +28,7 @@
     to{
         width: 150px;
         height: 150px;
-        transform: translate3d(,-50px,0,);
+        transform: translate3d(-50px,0,);
     }
     
 }
