@@ -16,7 +16,7 @@ body {
 
 /* HERO */
 .hero {
-    background: #87509c;
+    background: #262566;
     height: 100vh;
     color: white;
     display: flex;
@@ -77,27 +77,27 @@ body {
 
 /* BUTTON */
 .btn-primary {
-    background: #eb7d4b;
+    background: #aae43e;
     padding: 15px 40px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 600;
     border-radius: 5px;
     display: inline-block;
     transition: 0.3s;
-    box-shadow: 0 5px 0 #c86a40;
+    box-shadow: 0 5px 0 #ffffff;
 }
 
 /* BUTTON HOVER */
 .btn-primary:hover {
     transform: translateY(3px);
-    box-shadow: 0 2px 0 #c86a40;
-    background: #ff8c5a;
+    box-shadow: 0 2px 0 #ffffff;
+    background: #ffffff;
 }
 
 /* SERVICES */
 .services {
-    background: #17c2a4;
+    background: #007780;
     color: white;
     text-align: center;
     padding: 80px 0;
@@ -207,7 +207,7 @@ h2 {
   width: 100%;
   padding: 12px;
   border: none;
-  background: #2f3e74;
+  background: #42078f;
   color: #fff;
   border-radius: 3px;
   outline: none;
@@ -236,11 +236,11 @@ h2 {
 .socials {
   margin-top: 60px;
   padding: 20px 0;
-  background: #36457c;
+  background: #42078f;
 }
 
 .socials a {
-  color: #ccc;
+  color: #ffffff;
   margin: 0 15px;
   text-decoration: none;
   font-size: 14px;
@@ -252,35 +252,14 @@ h2 {
 }
 
 
-@media(min-width: 600px){
-        body{
-            background-color: lightblue;
-            color: black;
-        }
-    }
-@media(max-width: 600px){
-        body{
-            background-color: rgb(144, 103, 160);
-            color: rgb(165, 117, 117);
-        }
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+body {
+    background-color: #42078f;
+    color: white;
+}
 
-
- @media(min-width: 800px){
-        p{
-            column-count: 2;
-        }
-    }
-
-    @media print{
-        body{
-            background-color: transparent;
-            
-        }
-    }
-
-    @media(min-width: 600px) {
-        p{
-            font-size: 12px;
-        }
-    }
