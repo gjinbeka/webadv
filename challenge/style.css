@@ -171,13 +171,14 @@ body {
 }
 
 body {
-  background: #3f4f8a;
+  background: #3f8a67;
 }
 
 .contact {
   text-align: center;
   color: #fff;
   padding: 80px 20px 0;
+  
 }
 
 .container {
@@ -200,6 +201,7 @@ h2 {
   display: flex;
   gap: 20px;
   margin-bottom: 20px;
+  float: left;
 }
 
 .contact-form input,
@@ -207,16 +209,18 @@ h2 {
   width: 100%;
   padding: 12px;
   border: none;
-  background: #2f3e74;
+  background: #2f4174;
   color: #fff;
   border-radius: 3px;
   outline: none;
+  float: left;
 }
 
 .contact-form textarea {
   height: 120px;
   resize: none;
   margin-bottom: 20px;
+  float: left;
 }
 
 .contact-form button {
@@ -227,10 +231,12 @@ h2 {
   cursor: pointer;
   border-radius: 3px;
   transition: 0.3s;
+  float: left;
 }
 
 .contact-form button:hover {
   opacity: 0.85;
+
 }
 
 .socials {
