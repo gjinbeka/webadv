@@ -22,30 +22,27 @@ nav a:hover {
     color: #f97316;
 }
 
-/* HERO */
-.hero {
+/* CONTACT SECTION */
+.contact {
+    background: #020617;
+    padding: 40px 20px;
     text-align: center;
-    padding: 40px;
-    min-height: 100vh; /* makes it fill screen */
+    min-height: 80vh;
 }
 
-.hero img {
-    width: 100px;
-    margin: 15px 0;
+.contact h2 {
+    margin-bottom: 20px;
 }
 
-/* LIST (horizontal) */
-ul {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    list-style: none;
-    padding: 0;
-    margin: 20px 0;
-}
-
-li::before {
-    content: "• ";
+/* FORM */
+.contact input,
+.contact textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
 }
 
 /* BUTTON */
@@ -62,4 +59,11 @@ li::before {
 .btn:hover {
     background: linear-gradient(45deg, #f97316, #f97316);
     transform: scale(1.1);
+}
+
+/* FOOTER */
+footer {
+    background: #1e293b;
+    text-align: center;
+    padding: 10px;
 }

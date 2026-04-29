@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #0f172a;
+    color: white;
+}
+
+/* HEADER */
+header {
+    background: #0f172a;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #38bdf8;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f97316;
+}
+
+/* SERVICES SECTION */
+.services {
+    text-align: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+/* SERVICE CARDS */
+.service {
+    background: #1e293b;
+    margin: 15px auto;
+    padding: 15px;
+    width: 80%;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* FIXED IMAGES (smaller + centered) */
+.service img {
+    width: 40px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* HOVER */
+.service:hover {
+    background: #334155;
+    transform: translateY(-5px);
+}
