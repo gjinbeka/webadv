@@ -9,13 +9,14 @@ body {
 header {
     background: #0f172a;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
 }
 
 nav a {
     color: #38bdf8;
-    margin: 0 10px;
+    margin: 0 15px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav a:hover {
@@ -25,29 +26,64 @@ nav a:hover {
 /* SERVICES SECTION */
 .services {
     text-align: center;
-    padding: 40px 20px;
+    padding: 60px 20px;
     min-height: 100vh;
+
+    display: flex;
+    flex-wrap: wrap;              /* allows grid */
+    justify-content: center;      /* center all cards */
+    gap: 30px;                    /* space between cards */
+}
+
+/* TITLE FULL WIDTH */
+.services h2 {
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 /* SERVICE CARDS */
 .service {
     background: #1e293b;
-    margin: 15px auto;
-    padding: 15px;
-    width: 80%;
-    border-radius: 8px;
+    padding: 20px;
+    width: 250px;                 /* equal size cards */
+    border-radius: 12px;
     transition: 0.3s;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
-/* FIXED IMAGES (smaller + centered) */
+/* IMAGES FIXED */
 .service img {
-    width: 40px;
-    display: block;
-    margin: 0 auto 10px;
+    width: 100%;
+    height: 150px;                /* SAME height for all */
+    object-fit: cover;            /* crop nicely */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* TEXT */
+.service h3 {
+    margin: 10px 0 5px;
+}
+
+.service p {
+    font-size: 14px;
 }
 
 /* HOVER */
 .service:hover {
     background: #334155;
-    transform: translateY(-5px);
+    transform: translateY(-8px) scale(1.03);
+}
+
+/* FOOTER */
+footer {
+    background: #1e293b;
+    text-align: center;
+    padding: 10px;
 }
