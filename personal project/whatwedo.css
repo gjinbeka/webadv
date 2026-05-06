@@ -21,43 +21,70 @@ nav a:hover {
     color: #f97316;
 }
 
-/* SERVICES SECTION */
+/* 🔥 FULL CENTER SECTION */
 .services {
-    padding: 60px 20px;
-    text-align: center;
+    min-height: 100vh;
 
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
+    display: flex;
+    justify-content: center;  /* horizontal center */
+    align-items: center;      /* vertical center */
+    text-align: center;
+}
+
+/* WRAPPER */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* TITLE */
-.services h2 {
-    grid-column: 1 / -1;
+h2 {
+    margin-bottom: 10px;
 }
 
-/* SERVICE CARD */
+/* INTRO */
+.intro {
+    max-width: 500px;
+    margin-bottom: 30px;
+    color: #cbd5f5;
+}
+
+/* CARDS */
 .service {
     background: #1e293b;
     padding: 20px;
+    width: 300px;
     border-radius: 12px;
-    text-align: center;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* 🔥 IMAGE FIX (THIS IS WHAT YOU WANT) */
+/* IMAGE */
 .service img {
-    width: 200px;          /* same width */
-    height: 150px;         /* same height */
-    object-fit: cover;     /* crop nicely */
-    display: block;
-    margin: 0 auto 15px;   /* center image */
-    border-radius: 8px;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* TEXT */
+.service h3 {
+    margin: 10px 0 5px;
+}
+
+.service p {
+    font-size: 14px;
 }
 
 /* HOVER */
 .service:hover {
     background: #334155;
-    transform: translateY(-8px);
+    transform: translateY(-5px);
 }
 
 /* FOOTER */

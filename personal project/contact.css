@@ -27,7 +27,7 @@ nav a:hover {
     background: #020617;
     padding: 40px 20px;
     text-align: center;
-    min-height: 80vh;
+    
 }
 
 .contact h2 {
@@ -42,7 +42,7 @@ nav a:hover {
     margin: 10px auto;
     padding: 10px;
     border-radius: 5px;
-    border: none;
+    
 }
 
 /* BUTTON */
