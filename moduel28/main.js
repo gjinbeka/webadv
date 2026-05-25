@@ -27,3 +27,11 @@ button.onclick=function(){
     txt1.style.padding="20px";
     txt1.style.fontSize="100px";
 }
+ var button2=document.getElementById("buttoni2");
+
+button2.onclick=function(){
+    txt1.setAttribute("class","test");
+}
+
+
+
