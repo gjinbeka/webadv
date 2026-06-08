@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form onsubmit="" method="POST"
+    <div class="name-container">
+        <label for="name" id="name_label"></label>
+        <input type="text" id="name" name="name">   
+        <span id="name_error">Name is required</span>
+
+    </div>
+
+        <br>
+         <div class="age-container">
+            <label for="age" id="age_label"></label>
+            <input type="text" id="age" name="age">   
+            <span id="age_error">Age is required</span>
+         </div>
+            <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="main.js"></script>
+
+    <div class="city-container"></div>
+        <label for="city" id="city_label"></label>
+        <select id="city" name="city">
+            <option value="" Selected></option>
+            <option value="new_york">New York</option>
+            <option value="los_angeles">Los Angeles</option>
+            <option value="chicago">Chicago</option>
+            <option value="houston">Houston</option>
+        </select>
+        <span id="city_error">City is required</span>  
+    </div>
+    <br>
+    <button type="submit">Submit</button>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
